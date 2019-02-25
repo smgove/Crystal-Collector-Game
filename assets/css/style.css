@@ -1,0 +1,67 @@
+body{
+ 
+    background-image: url("https://www.printawallpaper.com/upload/designs/White_Crystals_dn.jpg");
+  
+}
+
+.Card1{
+    background: rgb(151, 63, 31);
+    height: 100px;
+    text-align:center;
+ 
+}
+.instructions{
+    background: rgb(230, 191, 106);
+   text-align:center;
+    height: 300px; 
+}
+.goal{
+    background: rgb(120, 194, 120);
+    height: 100px;
+   
+}
+.scoreboard{
+    background: rgb(34, 180, 224);
+    height: 100px;
+    
+    
+}
+.fish{
+    align-content:left;
+  
+    height: 65px;
+}
+.turtle{
+    align-content:left;
+    
+    height: 65px;
+}
+.frog{
+    align-content:left;
+  
+    height: 65px;
+}
+.wolf{
+    align-content:left;
+  
+    height: 65px;
+}#fish{
+    
+  
+    height: 45px;
+}
+#turtle{
+    
+    
+    height: 45px;
+}
+#frog{
+    
+  
+    height: 45px;
+}
+#wolf{
+   
+  
+    height: 45px;
+}
