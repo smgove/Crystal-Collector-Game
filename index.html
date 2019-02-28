@@ -15,10 +15,12 @@
 <body>
 
 
+
     <div class="row">
         <div class="col-sm-2">
             <div class="card">
                 <div class="Card1">
+                    <br>
                     <h3>Crystals Collector!</h3>
                 </div>
             </div>
@@ -41,14 +43,15 @@
         <div class="col-sm-2">
             <div class="card">
                 <div class="goal">
-                    Random Goal
+                    Your Goal: <span id="yourGoal"></span>
                 </div>
             </div>
         </div>
         <div class="col-sm-1">
             <div class="card">
                 <div class="scoreboard">
-                    Scoreboard
+                    <p>Wins: <span id="wins"></span></p>
+                    <p>Losses: <span id="loses"></span></p>
                 </div>
             </div>
         </div>
@@ -103,57 +106,15 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-lg-2">
             <div class="card">
-                <button id="button-1" class="btn btn-primary number" img src="assets/images/fish.jpg" value="1">
-                    <h1>1</h1>
-                </button>
-                <button id="button-2" class="btn btn-primary number" value="2">
-                    <h1>2</h1>
-                </button>
-                <button id="button-3" class="btn btn-primary number" value="3">
-                    <h1>3</h1>
-                </button>
-                <button id="button-4" class="btn btn-primary number" value="4">
-                    <h1>4</h1>
-                </button>
-
+                <div class="goal">
+                    Your Total Score: <span id="total"></span>
+                </div>
             </div>
         </div>
-
     </div>
 
-    <div class="row">
-        <div class="col-sm-1">
-            <div id="fish">
-
-                <img class="fish-image" src="assets/images/fish.jpg" alt="fish">
-            </div>
-        </div>
-        <div class="col-sm-1">
-            <div id="turtle">
-
-                <img class="turtle-image" src="assets/images/turtle.jpg" alt="turtle">
-
-            </div>
-        </div>
-        <div class="col-sm-1">
-            <div id="frog">
-
-                <img class="frog-image" src="assets/images/frog.jpg" alt="frog">
-
-            </div>
-        </div>
-        <div class="col-sm-1">
-            <div id="wolf">
-
-                <img class="wolf-image" src="assets/images/wolf.jpg" alt="wolf">
-
-            </div>
-        </div>
-
-    </div>
-    </div>
 
 </body>
 <script src="assets/javascript/game.js"></script>
