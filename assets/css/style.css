@@ -4,64 +4,40 @@ body{
   
 }
 
-.Card1{
+#header{
     background: rgb(151, 63, 31);
     height: 100px;
+    width: 400px;
     text-align:center;
  
 }
-.instructions{
+#instructions{
     background: rgb(230, 191, 106);
-   text-align:center;
-    height: 300px; 
+   
+    height: 200px; 
+    width: 600px;
 }
-.goal{
+#goal{
     background: rgb(120, 194, 120);
     height: 100px;
-   
+    width: 250px;
+    
 }
-.scoreboard{
+#scoreboard{
     background: rgb(34, 180, 224);
     height: 100px;
-    
+    width: 100px;
     
 }
-.fish{
-    align-content:left;
-  
-    height: 65px;
-}
-.turtle{
-    align-content:left;
+
+.crystalImage{
+   float: left;
     
-    height: 65px;
 }
-.frog{
-    align-content:left;
-  
-    height: 65px;
-}
-.wolf{
-    align-content:left;
-  
-    height: 65px;
-}#fish{
-    
-  
-    height: 45px;
-}
-#turtle{
-    
-    
-    height: 45px;
-}
-#frog{
-    
-  
-    height: 45px;
-}
-#wolf{
-   
-  
-    height: 45px;
+
+#counter{
+    background: blue;
+    height: 250px;
+    width:250px;
+
 }
